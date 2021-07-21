@@ -5,7 +5,7 @@
 
 - [Análise Exploratória](https://github.com/manoelakohler/DataMining/tree/main/01_An%C3%A1liseExplorat%C3%B3ria)
 
-  - Mushrooms: Geraçao de graficos para analise exploratoria da base de uma base de cogumelos.
+  - Mushrooms: Geraçao de graficos para analise exploratoria da base de uma base de cogumelos (mushrooms.ipynb).
       - Boxplots
       - Graficos de dispersao
       - Graficos de barras
