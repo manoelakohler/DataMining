@@ -1,5 +1,5 @@
-# Data Mining
-## Trabalhos desenvolvidos durante a disciplina de DM
+# Data Mining - BI Master PUC-Rio
+## Scripts desenvolvidos durante a disciplina de DM
 
 ### Índice
   
@@ -39,12 +39,22 @@
       - Árvore de decisão (classificação)
 
 
-
 <h2 id="pre-processamento">
   
 [Pré processamento](https://github.com/manoelakohler/DataMining/tree/main/02_Pr%C3%A9Processamento)
   
 </h2>
+
+  - **Secom:** Entendimento, pré processamento e classificação de uma base de um processo de fabricação de semi-condutores. [`Secom.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/02_Pr%C3%A9Processamento/Secom.ipynb). Um complexo processo de fabricação de semi-condutores moderno é normalmente feito sob vigilância consistente através do monitoramento de sinais, variáveis coletadas de sensores e pontos de medição de processo. No entanto, nem todos estes sinais são igualmente valiosos num sistema de monitoramento específico. Os sinais medidos contêm uma combinação de informações úteis, informações irrelevantes, bem como ruído. Engenheiros tipicamente têm um número muito maior de sinais do que são realmente necessários. Se considerarmos cada tipo de sinal como uma característica, então a seleção da característica pode ser aplicada para identificar os sinais mais relevantes. Os Engenheiros de Processo podem então usar estes sinais para determinar os fatores chave para o processo de produção. Isso poderá trazer benefícios para o processo, como redução do tempo e diminuição nos custos de produção.
+    - Gráficos e medidas resummo para análise exploratória      
+    - Pré processamento
+      - Tratamento de missing
+      - Remoção de atributos com variância zero
+      - Balanceamento da base de dados
+      - Normalização
+      - PCA
+    - Inferência
+      - SVM (classificação)
 
 <h2 id="classificacao">
   
