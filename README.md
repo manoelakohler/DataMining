@@ -63,6 +63,33 @@
   
 </h2>
 
+ - **Análise de Crédito Bancário:** Entendimento, pré processamento e classificação de uma base de análise de crédito [`Secom.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/02_Pr%C3%A9Processamento/Secom.ipynb). A base de dados contém 2077 exemplos de créditos concedidos ou não. Possui 11 atributos de entrada e 2 classes de saída. A saída indica se o cliente pagou o empréstimo (=1) ou se não pagou (=0). 
+ 
+    - Medidas resummo para análise exploratória      
+    - Pré processamento
+      - Normalização
+    - Inferência (classificação)
+      - SVM
+      - Árvore de Decisão
+      - Random Forest
+    - Tuning de hiperparâmetros
+      - GridSearch
+
+
+ - **Câncer de Mama:** Entendimento, pré processamento e classificação de uma base de análise de crédito [`Credito_SVM.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/03_Classifica%C3%A7%C3%A3o/Credito_SVM.ipynb), [`Credito_AD.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/03_Classifica%C3%A7%C3%A3o/Credito_AD.ipynb) e [`Credito_RF.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/03_Classifica%C3%A7%C3%A3o/Credito_RF.ipynb). Base de dados de características de tumores de mama, como raio, textura, perímetro e área do tumor, totalizando 30 atributos. A base consite em 569 registros de tumores (357 benignas e 212 malignas).
+ 
+    - Medidas resummo para análise exploratória      
+    - Pré processamento
+      - Normalização
+    - Inferência (classificação)
+      - KNN
+      - Regressão Logística
+    - Tuning de hiperparâmetros
+      - GridSearch
+    - Pós procecssamento
+      - Análise das confianças nas inferências para tornar a inferência mais conservadora, ou seja, evitar classificar um tumor maligno como benigno (o pior caso de erro).
+
+
 <h2 id="associacao">
   
 [Associação](https://github.com/manoelakohler/DataMining/tree/main/04_Associa%C3%A7%C3%A3o)
