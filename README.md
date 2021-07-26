@@ -96,3 +96,7 @@
   
 </h2>
 
+ - **Transações em um mercado francês:** Entendimento, pré processamento e classificação de uma base de análise de crédito [`Credito_SVM.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/03_Classifica%C3%A7%C3%A3o/Credito_SVM.ipynb). Lista de transações (compras) em um mercado francês: Cada linha da base é uma transação; Cada transação tem de 1 a N itens; Existem 119 produtos diferentes no mercado; Base tem 7501 transações feitas no decorrer de 1 semana.
+![image](https://user-images.githubusercontent.com/11425838/126654486-63902d4b-4852-494b-899c-e58d634f90d7.png)
+
+
