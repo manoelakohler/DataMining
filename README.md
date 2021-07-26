@@ -96,7 +96,15 @@
   
 </h2>
 
- - **Transações em um mercado francês:** Entendimento, pré processamento e classificação de uma base de análise de crédito [`Credito_SVM.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/03_Classifica%C3%A7%C3%A3o/Credito_SVM.ipynb). Lista de transações (compras) em um mercado francês: Cada linha da base é uma transação; Cada transação tem de 1 a N itens; Existem 119 produtos diferentes no mercado; Base tem 7501 transações feitas no decorrer de 1 semana.
+ - **Transações em um mercado francês:** Entendimento, pré processamento e associação de itens de um mercado utilizando o algoritmo Apriori [`Market_Apriori.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/04_Associa%C3%A7%C3%A3o/Market_Apriori.ipynb) e o FP-Growth [`Market_FPGrowth.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/04_Associa%C3%A7%C3%A3o/Market_FPGrowth.ipynb). Lista de transações (compras) em um mercado francês: Cada linha da base é uma transação; Cada transação tem de 1 a N itens; Existem 119 produtos diferentes no mercado; Base tem 7501 transações feitas no decorrer de 1 semana.
+ 
+    - Pré processamento
+      - Transformação de transações em uma matriz esparsa
+    - Inferência (classificação)
+      - Apriori
+      - FP-Growth
+    - Pós processamento
+      - Geração de regras a partir de conjuntos de itens frequentes
 
 
 
