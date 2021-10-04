@@ -123,7 +123,7 @@
 
 <h2 id="series">
   
-[Previsão de Séries Temporais](https://github.com/manoelakohler/DataMining/tree/main/04_Associa%C3%A7%C3%A3o)
+[Previsão de Séries Temporais](https://github.com/manoelakohler/DataMining/tree/main/07_Previs%C3%A3o_de_S%C3%A9ries_Temporais)
   
 </h2>
 
