@@ -7,6 +7,9 @@
 - [Pré processamento](#pre-processamento)
 - [Classificação](#classificacao)
 - [Associação](#associação)
+- [Agurpoamento](#agrupamento)
+- [Regressão](#regressao)
+- [Previsão de Séries Temporais](#series)
 
 <h2 id="analise-exploratoria">
   
@@ -106,5 +109,21 @@
     - Pós processamento
       - Geração de regras a partir de conjuntos de itens frequentes
 
+<h2 id="agrupamento">
+  
+[Agrupamento](https://github.com/manoelakohler/DataMining/tree/main/05_Agrupamento)
+  
+</h2>
 
+<h2 id="regressao">
+  
+[Regressão](https://github.com/manoelakohler/DataMining/tree/main/06_Regress%C3%A3o)
+  
+</h2>
+
+<h2 id="series">
+  
+[Previsão de Séries Temporais](https://github.com/manoelakohler/DataMining/tree/main/04_Associa%C3%A7%C3%A3o)
+  
+</h2>
 
