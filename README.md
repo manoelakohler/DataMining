@@ -115,7 +115,7 @@
   
 </h2>
 
-- **Base artificial:** Visualização, análise utilizando K-Means [`Kmeans_Artificial.ipynb`](https://github.com/FelipeBorgesC/DataMining/blob/main/05_Agrupamento/01_ArtificialData/Kmeans_Artificial.ipynb) e o método Hierarquico [`Hierarquico_Artificial.ipynb`](https://github.com/FelipeBorgesC/DataMining/blob/main/05_Agrupamento/01_ArtificialData/Hierarquico_Artificial.ipynb). Base de dados artificial criada com o intuito de facilitar a visualização dos dados em 2D e os grupos formados. Nos scripts estão desenvolvidas as análises utilizando o algoritmo de agrupamento K-Means, através das métricas WCSS e Davies Bouldin, e o algoritmo Hierárquico.
+- **Base artificial:** Visualização, análise utilizando K-Means [`Kmeans_Artificial.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/05_Agrupamento/01_ArtificialData/Kmeans_Artificial.ipynb) e o método Hierarquico [`Hierarquico_Artificial.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/05_Agrupamento/01_ArtificialData/Hierarquico_Artificial.ipynb). Base de dados artificial criada com o intuito de facilitar a visualização dos dados em 2D e os grupos formados. Nos scripts estão desenvolvidas as análises utilizando o algoritmo de agrupamento K-Means, através das métricas WCSS e Davies Bouldin, e o algoritmo Hierárquico.
  
     - Visualização da base de dados no plano 2D
     - Treinamento dos modelos
@@ -126,7 +126,7 @@
       - Inversão de Sinal
       - Maior Distância Vertical
 
-- **Clientes de um Shopping:** Visualização, análise das variáveis e definição dos grupos: K-Means [`Kmeans_Mall.ipynb`](https://github.com/FelipeBorgesC/DataMining/blob/main/05_Agrupamento/02_MallCustomers/Kmeans_Mall.ipynb) e o método Hierarquico [`Hierarquico_Mall.ipynb`](https://github.com/FelipeBorgesC/DataMining/blob/main/05_Agrupamento/02_MallCustomers/Hierarquico_Mall.ipynb). Base de dados de clientes de um shopping com as informações sobre ganho e consumo dos clientes. Nos scripts estão desenvolvidas as análises através dos algoritmos de agrupamento K-Means e Hierárquico.
+- **Clientes de um Shopping:** Visualização, análise das variáveis e definição dos grupos: K-Means [`Kmeans_Mall.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/05_Agrupamento/02_MallCustomers/Kmeans_Mall.ipynb) e o método Hierarquico [`Hierarquico_Mall.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/05_Agrupamento/02_MallCustomers/Hierarquico_Mall.ipynb). Base de dados de clientes de um shopping com as informações sobre ganho e consumo dos clientes. Nos scripts estão desenvolvidas as análises através dos algoritmos de agrupamento K-Means e Hierárquico.
  
     - Visualização da base de dados no plano 2D - Ganho vs Consumo
     - Treinamento dos modelos
@@ -137,7 +137,7 @@
       - Inversão de Sinal
       - Maior Distância Vertical
 
-- **Clusterização baseada em Densidade:** Visualização, análise das formas e regiões densas e aplicação do algoritmo DBSCAN [`DBscan.ipynb`](https://github.com/FelipeBorgesC/DataMining/blob/main/05_Agrupamento/03_BIData/DBscan.ipynb). Base de dados artificial criada com o objetivo de exibir a dificuldade em definir a quantidade ideal de cluster para uma base de dados ruidosa e complexa. O objetivo é verificar o desempenho do algoritmo DBSCAN para conjuntos de dados menos comportados, de acordo com a definição de pontos densamente conectados.
+- **Clusterização baseada em Densidade:** Visualização, análise das formas e regiões densas e aplicação do algoritmo DBSCAN [`DBscan.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/05_Agrupamento/03_BIData/DBscan.ipynb). Base de dados artificial criada com o objetivo de exibir a dificuldade em definir a quantidade ideal de cluster para uma base de dados ruidosa e complexa. O objetivo é verificar o desempenho do algoritmo DBSCAN para conjuntos de dados menos comportados, de acordo com a definição de pontos densamente conectados.
  
     - Visualização da base de dados no plano 2D
     - Treinamento do modelo
@@ -180,3 +180,14 @@
   
 </h2>
 
+- **Previsão de Séries Temporais - Aluguel de Bikes:** Entendimento, pré processamento e aplicar a Árvore de Decisão [`air_DT_solução.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/07_Previs%C3%A3o_de_S%C3%A9ries_Temporais/air_DT_solu%C3%A7%C3%A3o.ipynb) e Random Forest [`air_RF_solução.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/07_Previs%C3%A3o_de_S%C3%A9ries_Temporais/air_RF_solu%C3%A7%C3%A3o.ipynb). Estudo de caso sobre o número de passageiros de companhias aéreas. O objetivo do exercício é prever a quantidade de clientes ao longo do tempo.
+ 
+    - Analisar a série temporal
+    - Organização da série
+      - Janelamento
+      - Horizonte de previsão
+    - Separar (Treino e Teste)
+    - Treinamento do modelo
+      - Árvore de Decisão
+      - Random Forest
+    - Avaliar resultados
