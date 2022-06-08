@@ -115,11 +115,64 @@
   
 </h2>
 
+- **Base artificial:** Visualização, análise utilizando K-Means [`Kmeans_Artificial.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/05_Agrupamento/01_ArtificialData/Kmeans_Artificial.ipynb) e o método Hierarquico [`Hierarquico_Artificial.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/05_Agrupamento/01_ArtificialData/Hierarquico_Artificial.ipynb). Base de dados artificial criada com o intuito de facilitar a visualização dos dados em 2D e os grupos formados. Nos scripts estão desenvolvidas as análises utilizando o algoritmo de agrupamento K-Means, através das métricas WCSS e Davies Bouldin, e o algoritmo Hierárquico.
+ 
+    - Visualização da base de dados no plano 2D
+    - Treinamento dos modelos
+      - K-Means
+      - Hierarquico
+    - Avaliação dos tipos de métricas e escolha do número ótimo de clusters
+      - Método do Cotovelo
+      - Inversão de Sinal
+      - Maior Distância Vertical
+
+- **Clientes de um Shopping:** Visualização, análise das variáveis e definição dos grupos: K-Means [`Kmeans_Mall.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/05_Agrupamento/02_MallCustomers/Kmeans_Mall.ipynb) e o método Hierarquico [`Hierarquico_Mall.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/05_Agrupamento/02_MallCustomers/Hierarquico_Mall.ipynb). Base de dados de clientes de um shopping com as informações sobre ganho e consumo dos clientes. Nos scripts estão desenvolvidas as análises através dos algoritmos de agrupamento K-Means e Hierárquico.
+ 
+    - Visualização da base de dados no plano 2D - Ganho vs Consumo
+    - Treinamento dos modelos
+      - K-Means
+      - Hierarquico
+    - Avaliação dos tipos de métricas e escolha do número ótimo de clusters
+      - Método do Cotovelo
+      - Inversão de Sinal
+      - Maior Distância Vertical
+
+- **Clusterização baseada em Densidade:** Visualização, análise das formas e regiões densas e aplicação do algoritmo DBSCAN [`DBscan.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/05_Agrupamento/03_BIData/DBscan.ipynb). Base de dados artificial criada com o objetivo de exibir a dificuldade em definir a quantidade ideal de cluster para uma base de dados ruidosa e complexa. O objetivo é verificar o desempenho do algoritmo DBSCAN para conjuntos de dados menos comportados, de acordo com a definição de pontos densamente conectados.
+ 
+    - Visualização da base de dados no plano 2D
+    - Treinamento do modelo
+      - DBSCAN
+    - Avaliação do número ótimo de clusters
+      - Definir a quantidade de clusters 
+      - Encontrar a distância máxima ótima (*eps*)
+      - Analisar resultado
+
+
 <h2 id="regressao">
   
 [Regressão](https://github.com/manoelakohler/DataMining/tree/main/06_Regress%C3%A3o)
   
 </h2>
+
+- **Regressão - Startups:** Entendimento, pré processamento e aplicar a regressão [`Startups_LR.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/06_Regress%C3%A3o/01_Startups/Startups_LR.ipynb). Base de dados com informações diversas sobre Startups. Com cerca de 50 Startups com um total de 4 variáveis independentes: Gastos com P&D, Gastos administrativos, Gastos com marketing e o Estado; e 1 variável dependente (resposta): o Lucro. O case tem como objetivo criar um modelo capaz de prever o lucro baseado nessas 4 variáveis independentes para auxiliar os futuros investidores.
+ 
+    - Tratar variáveis categóricas
+    - Separar (Treino e Teste)
+    - Normalizar
+    - Treinamento do modelo
+      - Regressão Linear
+    - Avaliação diferentes métricas
+    - Examinar retirada de variavéis independentes
+
+- **Regressão - Aluguel de Bikes:** Entendimento, pré processamento e aplicar a regressão [`Bike_DT_RF.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/06_Regress%C3%A3o/02_Bike/Bike_DT_RF.ipynb). Case sobre o tempo de uso de bicicletas. A base de dados conta com 9 variáveis independentes: Estação do ano, Feriado, Dia da semana, Dia de trabalho, Tempo Climático, Temperatura, Sensação Térmica, Humidade e Velocidade do vento; e tem como variável de resposta: Horas de uso. O exercício tem como objetivo estimar a quantidade de horas de uso de bike pelos seus clientes de acordo com essas 9 variáveis independentes.
+ 
+    - Analisar a base de dados
+    - Separar (Treino e Teste)
+    - Treinamento do modelo
+      - Árvore de Decisão
+      - Random Forest
+    - Avaliar resultados
+
 
 <h2 id="series">
   
@@ -127,3 +180,14 @@
   
 </h2>
 
+- **Previsão de Séries Temporais - Aluguel de Bikes:** Entendimento, pré processamento e aplicar a Árvore de Decisão [`air_DT_solução.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/07_Previs%C3%A3o_de_S%C3%A9ries_Temporais/air_DT_solu%C3%A7%C3%A3o.ipynb) e Random Forest [`air_RF_solução.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/07_Previs%C3%A3o_de_S%C3%A9ries_Temporais/air_RF_solu%C3%A7%C3%A3o.ipynb). Estudo de caso sobre o número de passageiros de companhias aéreas. O objetivo do exercício é prever a quantidade de clientes ao longo do tempo.
+ 
+    - Analisar a série temporal
+    - Organização da série
+      - Janelamento
+      - Horizonte de previsão
+    - Separar (Treino e Teste)
+    - Treinamento do modelo
+      - Árvore de Decisão
+      - Random Forest
+    - Avaliar resultados
