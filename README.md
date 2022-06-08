@@ -115,6 +115,38 @@
   
 </h2>
 
+- **Base artificial:** Visualização, análise utilizando K-Means [`Kmeans_Artificial.ipynb`](https://github.com/FelipeBorgesC/DataMining/blob/main/05_Agrupamento/01_ArtificialData/Kmeans_Artificial.ipynb) e o método Hierarquico [`Hierarquico_Artificial.ipynb`](https://github.com/FelipeBorgesC/DataMining/blob/main/05_Agrupamento/01_ArtificialData/Hierarquico_Artificial.ipynb). Base de dados artificial criada com o intuito de facilitar a visualização dos dados em 2D e os grupos formados. Nos scripts estão desenvolvidas as análises utilizando o algoritmo de agrupamento K-Means, através das métricas WCSS e Davies Bouldin, e o algoritmo Hierárquico.
+ 
+    - Visualização da base de dados no plano 2D
+    - Treinamento dos modelos
+      - K-Means
+      - Hierarquico
+    - Avaliação dos tipos de métricas e escolha do número ótimo de clusters
+      - Método do Cotovelo
+      - Inversão de Sinal
+      - Maior Distância Vertical
+
+- **Clientes de um Shopping:** Visualização, análise das variáveis e definição dos grupos: K-Means [`Kmeans_Mall.ipynb`](https://github.com/FelipeBorgesC/DataMining/blob/main/05_Agrupamento/02_MallCustomers/Kmeans_Mall.ipynb) e o método Hierarquico [`Hierarquico_Mall.ipynb`](https://github.com/FelipeBorgesC/DataMining/blob/main/05_Agrupamento/02_MallCustomers/Hierarquico_Mall.ipynb). Base de dados de clientes de um shopping com as informações sobre ganho e consumo dos clientes. Nos scripts estão desenvolvidas as análises através dos algoritmos de agrupamento K-Means e Hierárquico.
+ 
+    - Visualização da base de dados no plano 2D - Ganho vs Consumo
+    - Treinamento dos modelos
+      - K-Means
+      - Hierarquico
+    - Avaliação dos tipos de métricas e escolha do número ótimo de clusters
+      - Método do Cotovelo
+      - Inversão de Sinal
+      - Maior Distância Vertical
+
+- **Clusterização baseada em Densidade:** Visualização, análise das formas e regiões densas e aplicação do algoritmo DBSCAN [`DBscan.ipynb`](https://github.com/FelipeBorgesC/DataMining/blob/main/05_Agrupamento/03_BIData/DBscan.ipynb). Base de dados artificial criada com o objetivo de exibir a dificuldade em definir a quantidade ideal de cluster para uma base de dados ruidosa e complexa. O objetivo é verificar o desempenho do algoritmo DBSCAN para conjuntos de dados menos comportados, de acordo com a definição de pontos densamente conectados.
+ 
+    - Visualização da base de dados no plano 2D
+    - Treinamento do modelo
+      - DBSCAN
+    - Avaliação do número ótimo de clusters
+      - Definir a quantidade de clusters 
+      - Encontrar a distância máxima ótima (*eps*)
+      - Analisar resultado
+
 <h2 id="regressao">
   
 [Regressão](https://github.com/manoelakohler/DataMining/tree/main/06_Regress%C3%A3o)
