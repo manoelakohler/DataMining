@@ -147,11 +147,32 @@
       - Encontrar a distância máxima ótima (*eps*)
       - Analisar resultado
 
+
 <h2 id="regressao">
   
 [Regressão](https://github.com/manoelakohler/DataMining/tree/main/06_Regress%C3%A3o)
   
 </h2>
+
+- **Regressão - Startups:** Entendimento, pré processamento e aplicar a regressão [`Startups_LR.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/06_Regress%C3%A3o/01_Startups/Startups_LR.ipynb). Base de dados com informações diversas sobre Startups. Com cerca de 50 Startups com um total de 4 variáveis independentes: Gastos com P&D, Gastos administrativos, Gastos com marketing e o Estado; e 1 variável dependente (resposta): o Lucro. O case tem como objetivo criar um modelo capaz de prever o lucro baseado nessas 4 variáveis independentes para auxiliar os futuros investidores.
+ 
+    - Tratar variáveis categóricas
+    - Separar (Treino e Teste)
+    - Normalizar
+    - Treinamento do modelo
+      - Regressão Linear
+    - Avaliação diferentes métricas
+    - Examinar retirada de variavéis independentes
+
+- **Regressão - Aluguel de Bikes:** Entendimento, pré processamento e aplicar a regressão [`Bike_DT_RF.ipynb`](https://github.com/manoelakohler/DataMining/blob/main/06_Regress%C3%A3o/02_Bike/Bike_DT_RF.ipynb). Case sobre o tempo de uso de bicicletas. A base de dados conta com 9 variáveis independentes: Estação do ano, Feriado, Dia da semana, Dia de trabalho, Tempo Climático, Temperatura, Sensação Térmica, Humidade e Velocidade do vento; e tem como variável de resposta: Horas de uso. O exercício tem como objetivo estimar a quantidade de horas de uso de bike pelos seus clientes de acordo com essas 9 variáveis independentes.
+ 
+    - Analisar a base de dados
+    - Separar (Treino e Teste)
+    - Treinamento do modelo
+      - Árvore de Decisão
+      - Random Forest
+    - Avaliar resultados
+
 
 <h2 id="series">
   
