@@ -7,7 +7,7 @@
 - [Pré processamento](#pre-processamento)
 - [Classificação](#classificacao)
 - [Associação](#associação)
-- [Agurpoamento](#agrupamento)
+- [Agrupamento](#agrupamento)
 - [Regressão](#regressao)
 - [Previsão de Séries Temporais](#series)
 
