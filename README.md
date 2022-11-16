@@ -1,5 +1,5 @@
 # Data Mining - BI Master PUC-Rio
-## Scripts desenvolvidos durante a disciplina de DM
+## Scripts desenvolvidos com os alunos durante a disciplina de DM
 
 ### Índice
   
