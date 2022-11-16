@@ -1,4 +1,8 @@
 # Data Mining - BI Master PUC-Rio
+
+#### Professora: [Manoela Kohler](https://github.com/manoelakohler).
+#### Monitor: [Felipe Borges](https://github.com/FelipeBorgesC).
+
 ## Scripts desenvolvidos com os alunos durante a disciplina de DM
 
 ### Índice
